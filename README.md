@@ -49,3 +49,36 @@ lib/
 - `firebase_storage`: Firebase Storage
 - `http`: API requests
 - `shared_preferences`: Local data storage
+
+
+## Começando
+
+1. Clone o repositório:
+ ```bash
+git clone <repository-url>
+cd pokemon_app
+```
+2. Instale as dependências:
+```bash
+flutter pub get
+```
+3. Configure o Firebase:
+```bash
+npm install -g firebase-tools
+```
+- Log in to Firebase:
+```bash
+firebase login
+```
+- Instale FlutterFire CLI:
+```bash
+dart pub global activate flutterfire_cli
+```
+- Configure Firebase :
+```bash
+flutterfire configure
+```
+4. Execute o aplicativo:
+```bash
+flutter run
+```
